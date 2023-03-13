@@ -41,10 +41,10 @@ Reusable Classes
 }
 /* Logo */
 .logo{
-    te
+    
     text-decoration: none;
     color: white;
-    font-size: 2rem;
+    font-size: 2rem
 }
 .logo:hover{
     color: white;
