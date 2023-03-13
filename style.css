@@ -41,7 +41,7 @@ Reusable Classes
 }
 /* Logo */
 .logo{
-    
+
     text-decoration: none;
     color: white;
     font-size: 2rem
@@ -182,7 +182,7 @@ Home
 =============================*/
 #home{
     height: 100vh;
-    background-image: url(../Images/Home-BG.jpg);
+    background-image: url(../Estimo/Images/Home-BG.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -233,7 +233,7 @@ About
 Achievements
 =============================*/
 #achievements{
-    background-image: url(/Images/seguranca.jpg);
+    background-image: url(../Estimo/Images/seguranca.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -349,7 +349,7 @@ Pricing
 Testimonials
 =============================*/
 #testimonials{
-    background-image: url(/Images/Review-Bg-img.jpg);
+    background-image: url(../Estimo/Images/Review-Bg-img.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
