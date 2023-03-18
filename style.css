@@ -10,7 +10,7 @@ CSS Reset
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    
 }
 body{
     color: #444;
@@ -19,14 +19,31 @@ body{
 section{
     padding: 80px 0;
 }
-h1{font-size: 60px;}
-h2{font-size: 36px;}
-h3{font-size: 25px;}
-h4{font-size: 20px;}
-h5{font-size: 18px;}
-h6{font-size: 16px;}
 
-h2,h3,h4,h5{
+h1{
+    font-size: 50px;
+    overflow: none;
+
+}    
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 25px;
+}
+h4{
+    font-size: 20px;
+}
+h5{
+    font-size: 18px;
+}
+h6{
+    font-size: 16px;
+}
+h2{
+    color: #ffffff;
+}
+h3,h4,h5{
     color: black;
 }
 
@@ -41,16 +58,15 @@ Reusable Classes
 }
 /* Logo */
 .logo{
-
     text-decoration: none;
-    color: white;
-    font-size: 2rem
+    color: rgb(255, 255, 255);
+    font-size: center;
 }
 .logo:hover{
-    color: white;
+    color: rgb(2, 153, 9);
 }
 .logo .img-box{
-    width: 6rem;
+    width: 4rem;
 }
 
 /* Social Links */
@@ -59,7 +75,7 @@ Reusable Classes
 }
 .social-links ul li{
     border-radius: 5px;
-    background-color: #1b1b1b;
+    background-color: #000000;
     padding: 20px;
     cursor: pointer;
     margin: 0 5px;
@@ -155,13 +171,13 @@ Reusable Classes
 Navbar
 =============================*/
 .navbar{
-    background-color: black;
+    background-color: rgba(0,153,93,.95);
 }
 .navbar-nav .nav-item{
-    margin: 5px 0.75rem;
+    margin: 6px 0.75rem;
 }
 .navbar-nav .nav-item .nav-link{
-    font-size: 16px;
+    font-size: px;
     text-decoration: none;
     color: white;
     font-weight: 700;
@@ -295,6 +311,8 @@ Services
 .service-card:hover .card-title{
     color: var(--deep-green);
 }
+
+
 
 /*=========================== 
 Pricing
