@@ -100,7 +100,7 @@ a{
 	color: #18d26e;
 }
 .header .menu > .menu-item > .sub-menu{
-	box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
 	width: 220px;
 	position: absolute;
 	left:0;
@@ -219,7 +219,7 @@ a{
 		height: 100%;
 		top:0;
 		overflow-y: auto;
-		background-color: #443f3f;
+		background-color: #ffffff;
 		z-index: 1000;
 		padding: 15px 0;
 		transition: all 0.5s ease;
